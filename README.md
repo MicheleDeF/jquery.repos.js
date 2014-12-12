@@ -47,5 +47,4 @@ https:// github.com / MicheleDeF , MicheleDeF is the username to be included as 
 
 ----------
 
-
-[http://micheledefalco.altervista.org/github/repos/demo.html](http://micheledefalco.altervista.org/github/repos/demo.html "demo jquery repos
+[http://micheledefalco.altervista.org/github/repos/demo.html](http://micheledefalco.altervista.org/github/repos/demo.html "demo jquery repos")
