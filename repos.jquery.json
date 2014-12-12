@@ -31,6 +31,6 @@
     "docs": "https://github.com/MicheleDeF/jquery.repos.js/blob/master/README.md",
     "download": "https://github.com/MicheleDeF/jquery.repos.js/archive/master.zip",
     "dependencies": {
-        "jquery": ">=1.5"
+        "jquery": ">=1.4"
     }
 }
