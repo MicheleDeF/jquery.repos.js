@@ -1,18 +1,18 @@
 # JQuery Repos #
 
-**JQuery Repos** è un plug-in jquery per visualizzare le ultime repositories pubblicate su github, sfruttando il sistema API (Application Program Interface) disponibile per Github.
-La documentazione ufficiale di API GitHub è disponibile al seguente link:
+**JQuery Repos** is a jquery plug-in to see the latest published on github repositories , using the system API ( Application Program Interface ) available to Github .
+The official documentation of API GitHub is available at the following link:
 
 
 [https://developer.github.com/v3/](https://developer.github.com/v3/ "developer github")
 
-Prima di inziare a utilizzare il plug-in scaricare ***octicons*** di github, cioè il pacchetto di icone, questi i link della documentazione ufficiale e del download:
+Before starting to use the plug-in download ***octicons*** of github, that is, the package of icons , these links of official documentation and downloads:
 
 [https://octicons.github.com/usage/](https://octicons.github.com/usage/ "official documentation")
 
 [https://octicons.github.com/](https://octicons.github.com/ "download octicons")
 
->## Codice HTML ##
+>##  HTML Code ##
     <head>
     `<script src="js/jquery-x.x.x.min.js" type="text/javascript"></script>`
     `<script src="js/jquery.repos.js" type="text/javascript"></script>`
@@ -29,7 +29,7 @@ Prima di inziare a utilizzare il plug-in scaricare ***octicons*** di github, cio
 
 ----------
 
->## Codice JavaScript  ##
+>## JavaScript Code  ##
 
     $(document).ready(function(){
     `$('div.repos').repos({ `
@@ -38,10 +38,10 @@ Prima di inziare a utilizzare il plug-in scaricare ***octicons*** di github, cio
     `});`
 
 ----------
-***username*** e ***count*** sono rispettivamente l'username usato per accedere a Github e il numero di repositories che si vuole far visualizzare.
+***username*** end ***count*** are respectively the username used to access Github and the number of repositories that you want to display.
 
 ----------
 
-*https://github.com/**MicheleDeF**, MicheleDeF è l'username da inserire come parametro nel plug-in repos.*
+*https://github.com/**MicheleDeF**, MicheleDeF is the username to be included as a parameter in the plug-in repos.*
 
 ----------
