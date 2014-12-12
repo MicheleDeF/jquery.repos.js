@@ -13,6 +13,7 @@ Before starting to use the plug-in download ***octicons*** of github, that is, t
 [https://octicons.github.com/](https://octicons.github.com/ "download octicons")
 
 >##  HTML Code ##
+
     <head>
     `<script src="js/jquery-x.x.x.min.js" type="text/javascript"></script>`
     `<script src="js/jquery.repos.js" type="text/javascript"></script>`
