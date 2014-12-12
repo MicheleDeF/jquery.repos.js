@@ -46,3 +46,6 @@ Before starting to use the plug-in download ***octicons*** of github, that is, t
 https:// github.com / MicheleDeF , MicheleDeF is the username to be included as a parameter in the plug-in repos.
 
 ----------
+
+
+[http://micheledefalco.altervista.org/github/repos/demo.html](http://micheledefalco.altervista.org/github/repos/demo.html "demo jquery repos
