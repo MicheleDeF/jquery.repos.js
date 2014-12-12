@@ -1,0 +1,36 @@
+{
+    "name": "repos",
+    "title": "jQuery Repos",
+    "description": "JQuery plug-in to view the latest repositories on Github",
+    "keywords": [
+        "JQuery plug-in to view the latest repositories on Github"
+        
+        
+    ],
+    "version": "0.1",
+    "author": {
+        "name": "michele de falco",
+        "url": "https://github.com/MicheleDeF"
+    },
+    "maintainers": [
+        {
+            "name": "Michele De Falco",
+            "email": "defalco_michele@libero.it",
+            "url": "https://github.com/MicheleDeF"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.githubusercontent.com/MicheleDeF/jquery.repos.js/master/LICENSE"
+            
+        }
+    ],
+    
+    "homepage": "https://github.com/MicheleDeF/jquery.repos.js",
+    "docs": "https://github.com/MicheleDeF/jquery.repos.js/blob/master/README.md",
+    "download": "https://github.com/MicheleDeF/jquery.repos.js/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
