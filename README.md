@@ -8,9 +8,9 @@ The official documentation of API GitHub is available at the following link:
 
 Before starting to use the plug-in download ***octicons*** of github, that is, the package of icons , these links of official documentation and downloads:
 
-[https://octicons.github.com/usage/](https://octicons.github.com/usage/ "official documentation")
+[https://octicons.github.com](https://octicons.github.com/ "official documentation")
 
-[https://octicons.github.com/](https://octicons.github.com/ "download octicons")
+[https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css](https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css "CND Code")
 
 >##  HTML Code ##
 
@@ -18,8 +18,9 @@ Before starting to use the plug-in download ***octicons*** of github, that is, t
     `<script src="js/jquery-x.x.x.min.js" type="text/javascript"></script>`
     `<script src="js/jquery.repos.js" type="text/javascript"></script>`
     `<link rel="stylesheet" href="css/repos.css">`
-    `<!--Octicons-->`
-    `<link rel="stylesheet" href="octicons/octicons.css">`
+    `<!--Octicons CND Code -->`
+    `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css">
+`
     `.........`
     `<body>`
     `<div class="repos"></div>`
@@ -34,7 +35,7 @@ Before starting to use the plug-in download ***octicons*** of github, that is, t
 
     $(document).ready(function(){
     `$('div.repos').repos({ `
-     `username:'MicheleDeF,`
+     `username:'MicheleDeF',`
      `count:4`
     `});`
 
