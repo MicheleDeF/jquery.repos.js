@@ -19,15 +19,9 @@ Before starting to use the plug-in download ***octicons*** of github, that is, t
     `<script src="js/jquery.repos.js" type="text/javascript"></script>`
     `<link rel="stylesheet" href="css/repos.css">`
     `<!--Octicons CND Code -->`
-    `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css">
-`
-    `.........`
+    `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css">`
     `<body>`
     `<div class="repos"></div>`
-    
-
-
-
 
 ----------
 
