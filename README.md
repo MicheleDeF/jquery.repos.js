@@ -14,7 +14,7 @@ Before starting to use the plug-in download ***octicons*** of github, that is, t
 
 >##  HTML Code ##
 
-    <head>
+    `<head>`
     `<script src="js/jquery-x.x.x.min.js" type="text/javascript"></script>`
     `<script src="js/jquery.repos.js" type="text/javascript"></script>`
     `<link rel="stylesheet" href="css/repos.css">`
@@ -27,7 +27,7 @@ Before starting to use the plug-in download ***octicons*** of github, that is, t
 
 >## JavaScript Code  ##
 
-    $(document).ready(function(){
+    `$(document).ready(function(){`
     `$('div.repos').repos({ `
      `username:'MicheleDeF',`
      `count:4`
