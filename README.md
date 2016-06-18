@@ -48,3 +48,8 @@ https:// github.com / MicheleDeF , MicheleDeF is the username to be included as 
 
 ----------
 [http://micheledef.github.io/jquery.repos.js/](http://micheledef.github.io/jquery.repos.js/ "Pager Github")
+
+<p data-height="265" data-theme-id="light" data-slug-hash="vKXKZr" data-default-tab="js,result" data-user="MicheleDeF" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/MicheleDeF/pen/vKXKZr/">JQuery Repos</a> by michele de falco (<a href="http://codepen.io/MicheleDeF">@MicheleDeF</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+
