@@ -4,29 +4,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Jquery.repos.js by MicheleDeF</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
-    <div class="wrapper">
+
       <header>
         <h1>Jquery.repos.js</h1>
         <p>JQuery plug-in to view the latest repositories on Github</p>
-
-        <p class="view"><a href="https://github.com/MicheleDeF/jquery.repos.js">View the Project on GitHub <small>MicheleDeF/jquery.repos.js</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/MicheleDeF/jquery.repos.js/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/MicheleDeF/jquery.repos.js/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/MicheleDeF/jquery.repos.js">View On <strong>GitHub</strong></a></li>
-        </ul>
       </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/MicheleDeF/jquery.repos.js" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/MicheleDeF/jquery.repos.js/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/MicheleDeF/jquery.repos.js/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
       <section>
         <h1>
 <a id="jquery-repos" class="anchor" href="#jquery-repos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JQuery Repos</h1>
@@ -38,7 +49,13 @@ The official documentation of API GitHub is available at the following link:</p>
 
 <p>Before starting to use the plug-in download <strong><em>octicons</em></strong> of github, that is, the package of icons , these links of official documentation and downloads:</p>
 
+<h3>
+<a id="official-documentation" class="anchor" href="#official-documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Official Documentation</h3>
+
 <p><a href="https://octicons.github.com/" title="official documentation">https://octicons.github.com</a></p>
+
+<h3>
+<a id="cnd-code" class="anchor" href="#cnd-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CND Code</h3>
 
 <p><a href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css" title="CND Code">https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css</a></p>
 
@@ -47,18 +64,15 @@ The official documentation of API GitHub is available at the following link:</p>
 <a id="html-code" class="anchor" href="#html-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HTML Code</h2>
 </blockquote>
 
-<pre><code>&lt;head&gt;
+<pre><code>`&lt;head&gt;`
 `&lt;script src="js/jquery-x.x.x.min.js" type="text/javascript"&gt;&lt;/script&gt;`
 `&lt;script src="js/jquery.repos.js" type="text/javascript"&gt;&lt;/script&gt;`
 `&lt;link rel="stylesheet" href="css/repos.css"&gt;`
 `&lt;!--Octicons CND Code --&gt;`
-`&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css"&gt;
+`&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css"&gt;`
+`&lt;body&gt;`
+`&lt;div class="repos"&gt;&lt;/div&gt;`
 </code></pre>
-
-<p><code>
-</code>.........<code>
-</code></p><code>
-</code><div></div>`
 
 <hr>
 
@@ -67,7 +81,7 @@ The official documentation of API GitHub is available at the following link:</p>
 <a id="javascript-code" class="anchor" href="#javascript-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JavaScript Code</h2>
 </blockquote>
 
-<pre><code>$(document).ready(function(){
+<pre><code>`$(document).ready(function(){`
 `$('div.repos').repos({ `
  `username:'MicheleDeF',`
  `count:4`
@@ -91,11 +105,11 @@ The official documentation of API GitHub is available at the following link:</p>
 
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/MicheleDeF">MicheleDeF</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>Project maintained by <a href="https://github.com/MicheleDeF">MicheleDeF</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
