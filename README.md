@@ -8,8 +8,10 @@ The official documentation of API GitHub is available at the following link:
 
 Before starting to use the plug-in download ***octicons*** of github, that is, the package of icons , these links of official documentation and downloads:
 
+### Official Documentation
 [https://octicons.github.com](https://octicons.github.com/ "official documentation")
 
+### CND Code
 [https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css](https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css "CND Code")
 
 >##  HTML Code ##
