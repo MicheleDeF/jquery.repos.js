@@ -6,7 +6,7 @@ The official documentation of API GitHub is available at the following link:
 
 [https://developer.github.com/v3/](https://developer.github.com/v3/ "developer github")
 
-Before starting to use the plug-in download ***octicons*** of github, that is, the package of icons , these links of official documentation and downloads:
+Before you start using the plug-in download octicons GitHub , or alternatively use the CND ( onticons.css ) , these are the links of the official documentation and the CND Code :
 
 ### Official Documentation
 [https://octicons.github.com](https://octicons.github.com/ "official documentation")
