@@ -11,8 +11,8 @@ Before you start using the plug-in download octicons GitHub , or alternatively u
 ### Official Documentation
 [https://octicons.github.com](https://octicons.github.com/ "official documentation")
 
-### CND Code
-[https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css](https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css "CND Code")
+### CDN Code
+[https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css](https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css "CDN Code")
 
 >##  HTML Code ##
 
