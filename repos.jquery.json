@@ -1,13 +1,13 @@
 {
-    "name": "repos",
-    "title": "jQuery Repos",
+    "name": "JQuery Repos",
+    "title": "JQuery Repos",
     "description": "JQuery plug-in to view the latest repositories on Github",
     "keywords": [
-        "JQuery plug-in to view the latest repositories on Github"
+        "jquery","github","repositories"
         
         
     ],
-    "version": "0.1",
+    "version": "1.0.1",
     "author": {
         "name": "michele de falco",
         "url": "https://github.com/MicheleDeF"
