@@ -14,25 +14,26 @@ Before you start using the plug-in download octicons GitHub , or alternatively u
 ### CDN Code
 [https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css](https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css "CDN Code")
 
->##  HTML Code
-<head>
-<script src="js/jquery-x.x.x.min.js" type="text/javascript"></script>
-<script src="js/jquery.repos.js" type="text/javascript"></script>
-<link rel="stylesheet" href="css/repos.css">
-<!--Octicons CND Code -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css">
-<body>
-<div class="repos"></div>
+>##  HTML Code ##
+
+    `<head>`
+    `<script src="js/jquery-x.x.x.min.js" type="text/javascript"></script>`
+    `<script src="js/jquery.repos.js" type="text/javascript"></script>`
+    `<link rel="stylesheet" href="css/repos.css">`
+    `<!--Octicons CND Code -->`
+    `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css">`
+    `<body>`
+    `<div class="repos"></div>`
 
 ----------
 
->## JavaScript Code 
+>## JavaScript Code  ##
 
-$(document).ready(function(){
-$('div.repos').repos({
-username:'MicheleDeF',count:10
-});      
-});
+    `$(document).ready(function(){`
+    `$('div.repos').repos({ `
+     `username:'MicheleDeF',`
+     `count:4`
+    `});`
 
 ----------
 ***username*** end ***count*** are respectively the username used to access Github and the number of repositories that you want to display.
