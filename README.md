@@ -14,7 +14,7 @@ Before you start using the plug-in download octicons GitHub , or alternatively u
 ### CDN Code
 [https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css](https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css "CDN Code")
 
->##  HTML Code ##
+>##  HTML Code
 <head>
 <script src="js/jquery-x.x.x.min.js" type="text/javascript"></script>
 <script src="js/jquery.repos.js" type="text/javascript"></script>
@@ -26,7 +26,7 @@ Before you start using the plug-in download octicons GitHub , or alternatively u
 
 ----------
 
->## JavaScript Code  ##
+>## JavaScript Code 
 
 $(document).ready(function(){
 $('div.repos').repos({
